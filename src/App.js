@@ -148,7 +148,7 @@ export default () =>{
               </RoutesPrivate>
 
               <RoutesPrivate path="/email">
-              <Login/>
+                <ContactUs/>
               </RoutesPrivate>
 
               <Route path="*">
