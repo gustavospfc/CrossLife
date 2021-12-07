@@ -12,7 +12,7 @@ function initialState(){
 }
 
 function login({user, password}){
-    if(user === 'gustavo' && password === 'admin'){
+    if(user === 'fivetech' && password === 'admin'){
         return{ token: "autenticado"};
     }
     return {error: 'Usuario ou senha invalido'}
